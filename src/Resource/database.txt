@@ -1,0 +1,7 @@
+Cat,kuzya,myau
+Dog,Jerry,gav,go,stop
+Camel,Borya,t'fu
+Hamster,Misha,eat
+Horse,Lady,go
+Donkey,IA,i-a-ia,go,stop
+Cat,Liza,myau,eat

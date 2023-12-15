@@ -1,0 +1,39 @@
+cat > pets.txt
+cats
+dogs
+hamsters
+
+cat > pack_animals.txt
+horses
+camels
+donkeys
+
+cat pets.txt pack_animals.txt > animals.txt
+cat animals.txt
+cats
+dogs
+hamsters
+horses
+camels
+donkeys
+
+mv animals.txt human_friends.txt
+ls
+
+mkdir animals
+mv human_friends.txt animals/
+ls
+cd animals/
+ls
+human_friends.txt
+cd ..
+
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+sudo apt update
+sudo apt install mysql-server
+
+wget https://downloads.mysql.com/archives/get/p/41/file/mysql-router_8.0.31-1ubuntu22.04_amd64.deb
+sudo apt -f install
+sudo dpkg -i mysql-router_8.0.31-1ubuntu22.04_amd64.deb
+sudo dpkg -r mysql-router
